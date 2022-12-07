@@ -1,0 +1,580 @@
+cover==Elden Ring - cover.jpg
+
+developers==
+{{Infobox game/row/developer
+publishers==
+{{Infobox game/row/publisher
+release dates==
+{{Infobox game/row/date
+reception==
+{{Infobox game/row/reception
+taxonomy==
+{{Infobox game/row/taxonomy/monetization
+steam appid==1245620
+
+official site==https://www.bandainamcoent.com/games/eldenring
+
+hltb==68151
+
+igdb==elden-ring
+
+mobygames==elden-ring
+
+wikipedia==Elden Ring
+
+license==commercial
+}}
+
+{{Introduction
+
+introduction==
+
+
+release history==
+
+
+current state==
+}}
+
+'''General information'''
+{{mm}} [https://discord.gg/eldenring Official Discord server]
+{{mm}} [https://service.bandainamcoent.eu/app/list/p/7916/ Official Support Page]
+{{mm}} [https://steamcommunity.com/app/1245620/discussions/ Steam Community Discussions]
+
+
+Steam}}.
+
+==
+dlc==Certain editions include a pre-order bonus in the form of an in game gesture called "The Ring". While the gesture is otherwise obtainable in the game through online gameplay, owners of the pre-order bonus have it from the very start.<ref name
+url==https://www.theloadout.com/elden-ring/pre-order-bonuses
+title==Elden Ring pre-order bonuses – which edition is best?
+date==2022-04-10}}</ref>
+}}
+{{DLC
+The only in-game bonus is "The Ring" gesture, which is otherwise obtainable in-game through online gameplay.<ref name=="preorder" />
+Windows }}
+}}
+==
+none==Elden Ring has no microtransactions.
+}}
+
+
+appdata}}\EldenRing\GraphicsConfig.xml}}
+}}
+
+==
+uid}}\ER0000.sl2}}
+}}
+
+==
+Save game cloud syncing]]==
+steam cloud==true
+
+xbox cloud notes==
+}}
+
+
+widescreen resolution==true
+
+widescreen resolution notes==16:9. See [[#Mods
+multimonitor==hackable
+
+multimonitor notes==See [[#Mods
+ultrawidescreen==hackable
+
+ultrawidescreen notes==See [[#Mods
+4k ultra hd==true
+
+fov==hackable
+
+fov notes==See [[#Mods
+windowed==true
+
+borderless windowed==true
+
+anisotropic==limited
+
+anisotropic notes==Scales automatically via Texture Quality setting.
+
+antialiasing==true
+
+antialiasing notes==Anti-aliasing quality can be switched between Off, Low ([[FXAA]]), and High ([[TAA]]).
+
+upscaling==unknown
+
+vsync==always on
+
+60 fps==true
+
+60 fps notes==A few cutscenes are capped to 30 FPS.
+
+120 fps==hackable
+
+120 fps notes==Capped at 60 FPS. See [[#Mods
+hdr==true
+
+ray tracing==false
+
+ray tracing notes==Set to support ray tracing in a future update.
+
+color blind==false
+
+color blind notes==
+}}
+
+
+key remap==limited
+
+key remap notes==Many keys cannot be remapped.<br>Set "Device for On-Screen Prompts" to "Keyboard and Mouse" to show keyboard prompts for controls.
+
+acceleration option==false
+
+mouse sensitivity==true
+
+mouse sensitivity notes==Range from 0 to 10.
+
+mouse menu==true
+
+invert mouse y-axis==true
+
+invert mouse y-axis notes==Under Keyboard/Mouse settings, listed as Mouse Y-Axis. X-Axis can also be inverted.
+
+touchscreen==unknown
+
+controller support==true
+
+full controller==true
+
+controller remap==true
+
+controller sensitivity==true
+
+controller sensitivity notes==Range from 0 to 10.
+
+invert controller y-axis==true
+
+invert controller y-axis notes==X-Axis can also be inverted.
+
+xinput controllers==true
+
+xbox prompts==true
+
+xbox prompts notes==[[Controller:Xbox Wireless Controller
+impulse triggers==false
+
+dualshock 4==false
+
+dualshock prompts==false
+
+light bar support==false
+
+dualshock 4 modes==false
+
+tracked motion controllers==false
+
+tracked motion prompts==false
+
+other controllers==false
+
+other button prompts==false
+
+controller hotplug==unknown
+
+haptic feedback==true
+
+simultaneous input==true
+
+steam input api==unknown
+
+steam hook input==unknown
+
+steam input presets==true
+
+steam controller prompts==unknown
+
+steam cursor detection==unknown
+
+steam cursor detection notes==
+}}
+
+
+separate volume==true
+
+separate volume notes==Music, Sound Effects, Voice.
+
+surround sound==true
+
+surround sound notes==Gameplay uses up to 7.1. Cutscenes are limited to 5.1.<ref>{{Refcheck
+user==Aemony
+date==2022-02-24
+comment==Tested on a 7.1 system.}}</ref>
+
+subtitles==true
+
+closed captions==false
+
+mute on focus lost==false
+
+royalty free audio==unknown
+
+royalty free audio notes==
+}}
+
+{{L10n
+content==
+{{L10n/switch
+
+language==English
+
+interface==true
+
+audio==true
+
+subtitles==true
+
+fan==
+}}
+{{L10n/switch
+
+language==Simplified Chinese
+
+interface==true
+
+audio==false
+
+subtitles==true
+
+fan==
+}}
+{{L10n/switch
+
+language==Traditional Chinese
+
+interface==true
+
+audio==false
+
+subtitles==true
+
+fan==
+}}
+{{L10n/switch
+
+language==French
+
+interface==true
+
+audio==false
+
+subtitles==true
+
+fan==
+}}{{L10n/switch
+
+language==German
+
+interface==true
+
+audio==false
+
+subtitles==true
+
+fan==
+}}
+{{L10n/switch
+
+language==Italian
+
+interface==true
+
+audio==false
+
+subtitles==true
+
+fan==
+}}
+{{L10n/switch
+
+language==Japanese
+
+interface==true
+
+audio==false
+
+subtitles==true
+
+fan==
+}}
+{{L10n/switch
+
+language==Korean
+
+interface==true
+
+audio==false
+
+subtitles==true
+
+fan==
+}}
+{{L10n/switch
+
+language==Polish
+
+interface==true
+
+audio==false
+
+subtitles==true
+
+fan==
+}}
+{{L10n/switch
+
+language==Brazilian Portuguese
+
+interface==true
+
+audio==false
+
+subtitles==true
+
+fan==
+}}
+{{L10n/switch
+
+language==Russian
+
+interface==true
+
+audio==false
+
+subtitles==true
+
+fan==
+}}
+{{L10n/switch
+
+language==Spanish
+
+interface==true
+
+audio==false
+
+subtitles==true
+
+fan==
+}}
+{{L10n/switch
+
+language==Latin American Spanish
+
+interface==true
+
+audio==false
+
+subtitles==true
+
+fan==
+}}
+{{L10n/switch
+
+language==Thai
+
+interface==true
+
+audio==false
+
+subtitles==true
+
+fan==
+}}
+}}
+
+
+local play==false
+
+lan play==false
+
+online play==true
+
+online play notes==Up to four players total. Two other players can be called for cooperative play with additional room for one invading player.
+
+asynchronous notes==
+}}{{Network/Connections
+
+direct ip notes==
+}}{{Network/Ports
+
+tcp==27014-27050, 50050
+
+udp==27000-27030, 3478, 4379, 4380, 50000-50003
+
+upnp==unknown
+}}
+
+
+url==https://www.eurogamer.net/articles/digitalfoundry-2022-elden-rings-pc-performance-simply-isnt-good-enough
+title==Elden Ring's PC performance simply isn't good enough • Eurogamer.net
+date==2022-03-02
+snippet==The stuttering issues suggest that shader compilation management is poorly handled, with shader code compiled the first time it's needed in-game, generating split-second delays throughout the experience.<br>[...]<br>In addition to this issue, there's ''further'' stutter, seemingly tied into background loading.}}</ref><ref>{{Refurl
+url==https://kotaku.com/elden-ring-pc-bad-performance-day-one-patch-ps5-xbox-se-1848588854
+title==Kotaku - Elden Ring Isn’t Running So Great On PC
+date==2022-02-25}}</ref>
+
+{{Fixbox
+description==Potential fix for stutter and frame rate drops{{cn
+date==2022-03-03}}
+fix==
+
+* The game is a DirectX 12 title with no shader precompiling. The game will stutter less the more you play as it saves its shaders on your PC. Note that every time you update your drivers, the shader stutter will begin again.
+
+* Forcing Vsync off in the GPU control panel for the game or globally, substantially reduces stutters at the cost of introducing tearing. Setting Vsync to fast turns it off and reduces tearing to imperceptible levels.
+
+* Disable Microsoft Device Association Root Enumerator in your Device Manager. To find this, go to your Control Panel, locate Software devices, Right click Microsoft Device Association Root Enumerator and click Disable Device.
+
+* Disable Steam Overlay by Right clicking Elden Ring in your Steam Library, choose Properties, Uncheck Enable the Steam Overlay while in-game.
+
+* The game may occasionally freeze up for several moments at a time when using a controller. Uninstall all Microsoft Store and PC Game Pass games that are located in your Windowsapps folder. Update your Xbox App via the Microsoft Store. Reinstall your games via the advanced installation settings located in the General section to another custom game folder. If the Xbox app does not show the advanced installation settings, uninstall it, then reinstall it from the Microsoft Store. Some games, such as Sea of Thieves, do not currently support advanced installation. If all else fails, uninstall the Xbox app and all Xbox games. [https://www.reddit.com/r/Eldenring/comments/t4efv5/possible_workaround_for_some_microfreezesstutters/ Further explanation]
+
+* [https://github.com/soupstream/EldenRingStutterFix Potential fix]
+
+* Changing your Power Plan to "Ultimate Performance" might resolve FPS problems.
+}}
+
+
+description==Enable desktop configuration
+fix==
+* Go to Steam > Controller > Desktop Configuration to open the Steam Controller Configurator.
+* Select 'Browse Configs' and apply a configuration of your choosing to use in-game (note: this will also enable the controller in this configuration on your Desktop)
+* Exit the Steam Controller Configurator.
+* In your Library, right-click on Elden Ring and select 'Properties...'.
+* In the controller category, ensure Steam Input is enabled.
+}}
+
+
+description==Run the game in Borderless Windowed or see [[#Mods
+ref==
+fix==
+}}
+
+
+description==Upgrade to a newer build of Windows
+fix==
+* The game seems to require DX12 features not available on some older builds of Windows. Updating to build 21H1 (or at least build 1909 {{cn
+date==2022-02-28}}) fixes the issue. 
+}}
+
+
+description==Turn off Steam Overlay from Steam (Steam->Settings->In-game->Enable steam overlay [OFF])
+ref==
+fix==}}
+
+
+description==Enable Radeon Anti-Lag
+fix==
+* Launch AMD Software and go to Settings > Graphics. 
+* Set Radeon Anti-Lag to Enabled.
+{{--}}Note that in many scenarios, Anti-Lag can cause an input lag increase across all games<ref>[https://youtu.be/7CKnJ5ujL_Q?t
+direct3d versions==12
+
+windows 32-bit exe==false
+
+windows 64-bit exe==true
+
+windows arm app==unknown
+
+macos intel 32-bit app==unknown
+
+macos intel 64-bit app==unknown
+
+macos arm app==unknown
+
+linux 32-bit executable==unknown
+
+linux 64-bit executable==unknown
+
+linux arm app==unknown
+
+linux executable notes==
+}}
+
+
+physics==Havok, SpeedTree
+
+audio==Wwise
+
+interface==Scaleform
+
+cutscenes==Bink Video
+
+multiplayer==Steamworks
+
+anticheat==Easy Anti-Cheat
+
+anticheat notes==
+}}
+
+
+user==13xforever1
+date==2022-02-24
+comment==[https://cdn.discordapp.com/attachments/838470946406924328/946547288367575090/unknown.png Windows 11 warning]}}</ref> This should have been fixed with 1.03 game update.
+
+{{Fixbox
+description==Use [https://www.nexusmods.com/eldenring/mods/90 Elden Ring EAC Toggler]
+ref==
+fix==
+{{++}} This tool will make {{file
+description==Run through {{file
+ref==<ref>[https://www.nexusmods.com/eldenring/mods/43 Pause the game at Elden Ring Nexus - Mods and Community]</ref>
+fix==
+# Go to <code>{{p
+eldenring.exe}} as a non-Steam game or create a shortcut on your desktop.
+}}
+
+==
+Easy Anti-Cheat]].
+
+==
+P}} key by default.
+
+==
+OSfamily==Windows
+
+
+minOS==10
+
+minCPU==Intel Core i5-8400
+
+minCPU2==AMD Ryzen 3 3300X
+
+minRAM==12 GB
+
+minHD==60 GB
+
+minGPU==Nvidia GeForce GTX 1060
+
+minGPU2==AMD Radeon RX 580
+
+minVRAM==3 GB (Nvidia), 4 GB (AMD)
+
+minDX==12
+
+
+recOS==10, 11
+
+recCPU==Intel Core i7-8700K
+
+recCPU2==AMD Ryzen 5 3600X
+
+recRAM==16 GB
+
+recGPU==Nvidia GeForce GTX 1070
+
+recGPU2==AMD Radeon RX Vega 56
+
+recVRAM==8 GB
+
+notes=={{ii}} A 64-bit operating system is required.
+}}
+{{ii}} The game will run on Intel Core 2 processors, despite the minimum processor requirements.<ref>[https://old.reddit.com/r/lowendgaming/comments/tavt9m/i_can_play_elden_ring_on_this_potato_omg/ I can play Elden Ring on this potato omg : lowendgaming - Reddit]</ref><ref>[https://www.youtube.com/watch?v
