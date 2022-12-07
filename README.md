@@ -1,9 +1,10 @@
 # py_pcgamingwiki_parser
 Python parser for PCgamingwiki
 
-This is very simple and ham-fisted. I finnd pcgamingwiki's api convuluted compared to mediawiki's overall structure. 
+This is very simple and ham-fisted. I find pcgamingwiki's api convoluted compared to mediawiki's overall structure. 
 This takes command-line arguments within quotes to return values on pcgamingwiki. 
-These values are on new lines and separated by "==". You can easily modify into a dictionary for key,val parsing but Im on to the next project. 
+These values are on new lines and separated by "==". You can easily modify into a dictionary for key,val parsing but I’m on to the next project.
+
 
 For now, simply run the release from cmd likethis: 
 
