@@ -11,7 +11,7 @@ For now, simply run the release from cmd likethis:
 
 `pcgamingwiki.exe "elden ring"` 
 
-or Run to receive a popup window asking to "request game". 
+or Run to receive a popup window asking to "enter game". 
 
 ![Screenshot 2022-12-07 155157](https://user-images.githubusercontent.com/98753696/206305402-489cc227-c6fc-4dbd-b9fb-bf2afecb5899.png)
 
