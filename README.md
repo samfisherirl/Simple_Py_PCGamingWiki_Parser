@@ -12,3 +12,4 @@ For now, simply run the release from cmd likethis:
 
 an output file of "output.txt" contains all values. 
 
+Secondarily, you can simple run and a pop up window will request "Enter game"
