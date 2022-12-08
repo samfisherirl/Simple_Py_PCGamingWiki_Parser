@@ -1,21 +1,21 @@
-import urllib.request
 import requests
 import json
 import os
-import sys
 
 
 class Browser:
-	def __init__(self, game):
+	def __init__(self, game, path):
 		self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'}
 		self.game = game
-  
+		self.path = ('{}\\output.txt').format(path)
+		print(self.path)
+
 		#https://www.pcgamingwiki.com/w/api.php?action=parse&page=Elden_Ring&prop=wikitext&format=json
 
 	def search(self):
 		url = ("https://www.pcgamingwiki.com/w/api.php?action=query&list=search&srsearch={}&format=json".format(self.game))
 		
-		val = requests.get(url, headers=self.headers).text
+		val = requests.get(url, headers=self.headers, stream=True, allow_redirects=True).text
 		j = json.loads(val)
 		val = j['query']['search'][0]['title']
 		# j = json.loads(val)
@@ -29,38 +29,29 @@ class Browser:
 		j = json.loads(val) 
 		val = (j['parse']['wikitext']['*'])
 		val = val.split('|')
+		return val
+
+	def write(self, val):
 		try:
-			os.remove("output.txt")
+			os.remove(self.path)
 		except:
 			pass
-		with open('output.txt', "a") as f:
+		pagedata = {}
+		with open(self.path, "w+") as f:
 			for i in val:
 				try: 
 					x = i.split('=')
-					k = x[0].strip(' ')
-					v = x[1].strip(' ')
-					if v != '\n':
-						f.write(f'{k}=={v}' + '\n') 
+					k = x[0].strip()
+					v = x[1].strip()
+					k = k.replace(' ', '_')
+					v = v.replace(' ', '_')
+					if (v != '\n') and (v != '\n\n') and (v != '\n\n\n') and (v != ''):
+						f.write(f'{k}=={v}\n\n\n') 
+						pagedata[k] = v
 				except:
 					pass
+		print(pagedata['direct3d_versions'])
+		return pagedata
 				
-			
-	def pagedata(self):
-		
-		url = "https://steamdb.info/app/1534900/"
-		val = requests.get(url, headers=self.headers, stream=True, allow_redirects=True).text
-		with open('output.txt', "w") as f:
-			f.write(val)
 
-# x = input("Enter game name: ")
-# G = Browser(x)
-print(sys.argv[1])
-G = Browser(sys.argv[1])
-page = G.search()
-G.parse(page)
-
-#dirname = os.path.dirname(__file__)
-#os.system(f'\"{dirname}\\output.txt\"')
-
-#G.pagedata()
 
