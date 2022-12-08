@@ -3,9 +3,10 @@ Python parser for PCgamingwiki
 
 This is very simple and ham-fisted. I find pcgamingwiki's api convoluted compared to mediawiki's overall structure. 
 This takes command-line arguments within quotes to return values on pcgamingwiki. 
-These values are on new lines and separated by "==". You can easily modify into a dictionary for key,val parsing but I’m on to the next project.
+These values are on new lines and separated by "==". 
 
-
+This also has a built in dictionary for each entry in the output, for every key, `pagedata[key] = val` can be accessed. 
+ 
 For now, simply run the release from cmd likethis: 
 
 `pcgamingwiki.exe "elden ring"` 
